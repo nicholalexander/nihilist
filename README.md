@@ -32,7 +32,7 @@ end # => nil
 
 Sadly, you can't chain nils.  Something like this: `Nihil.bloop.blonk.bliff` will raise a `NoMethodError`.
 
-That's where insane mode comes in!
+Or will it?  That's where insane mode comes in!
 
 ```ruby
 Nihil.insane_mode!
